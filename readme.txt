@@ -39,3 +39,23 @@ IMPORTANT NOTE!!! if you want the table to be created in postgres the files/thei
 9) We create a React app, using a new window and folder in VS Code and google how to create a react project and follow the instructions
 	- we create the project with the command "npx create-react-app my-app" 
 	- then we change to the directory that's been created and run the app with the command "npm start", the window will open automatically
+	- in src are all the files that create the app, first we modify App.js by putting in an h1 "Hello World" just to test the function
+
+10) Files in our directory and what are they for:
+	- package.json : contains dependencies
+	- readme.md : contains the commands and all things necessary to create a React application
+	- node_modules folder : where all the dependencies are installed
+	- public folder : containing our index.html file, where all of our code will be loaded into this file dynamically
+	  thanks to the div by id root 
+	- App.js : our root component, we write code into it, it contains jsx code, which is basically HTML inside JavaScript
+	- index.js : whenever we run our application the index.html will get served this file will get executed, further commentary in file
+
+11) Let's integrate Bootstrap into our application
+	- there are two ways to integrate bootstrap: through a cdn link that we can add into our header in the index.html file
+						     through the terminal with a command found on the website
+	- i installed bootstrap through the terminal and it appeared in our package.json as a dependency
+	- make sure you import bootstrap into your application, you 
+
+
+
+
