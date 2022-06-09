@@ -54,7 +54,12 @@ IMPORTANT NOTE!!! if you want the table to be created in postgres the files/thei
 	- there are two ways to integrate bootstrap: through a cdn link that we can add into our header in the index.html file
 						     through the terminal with a command found on the website
 	- i installed bootstrap through the terminal and it appeared in our package.json as a dependency
-	- make sure you import bootstrap into your application, you 
+	- make sure you import bootstrap into your application, you can use either way to do it
+	- now we can use Bootstrap CSS classes to do what we need to do
+
+12) Next we will create a React component to display a list of users on our webpage
+	- create a "components" folder in the "src" folder and a new file "ListEmployeeComponent.jsx", it can also have the
+	  ".js" suffix, just know we will be writing jsx code in too as is standard in React
 
 
 
