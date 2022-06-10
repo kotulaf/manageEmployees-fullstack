@@ -60,7 +60,23 @@ IMPORTANT NOTE!!! if you want the table to be created in postgres the files/thei
 12) Next we will create a React component to display a list of users on our webpage
 	- create a "components" folder in the "src" folder and a new file "ListEmployeeComponent.jsx", it can also have the
 	  ".js" suffix, just know we will be writing jsx code in too as is standard in React
+	- download Reactjs code snippets from the VS Code marketplace
 
+13) Let's create a React class component
+	- with the "rcc" code, which will generate it
+	- there we have a render method, inside it a return statement where we will be writing out jsx code
+	- in this.state we initialize our employees array
+	- in render we can write basically html-like code
 
+14) Next we'll create a table to display our employees
+	- and use bootstrap classes to make it look a certain way
+	- in the table body we write JavaScript code to display our table dynamically
+	- we are going leverage a jsx feature, .map() to iterate our array of employees
+	- inside the method we write html code and assign each table cell one value
 
+15) Now we have to connect the React app with our Rest API
+	- to make a call to the Rest API we have to use a third party http library, for example axios library, which we install with the terminal
+	  command npm intall axios --save
+	- we might be prompted to fix some issues that are present within the program, which we can do by typing npm audit fix --force in the terminal
+	- then we can see the axios dependency in our package.json
 
